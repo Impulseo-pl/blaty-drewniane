@@ -124,7 +124,7 @@ ul{margin:0;padding:0;list-style:none}
 .reveal-phone{font-family:var(--f-serif);font-size:clamp(2.2rem,3.6vw,3.4rem);line-height:1;color:var(--brass);text-decoration:none}
 .reveal-phone:hover{color:var(--bone)}
 .reveal-text{font-family:var(--f-serif);font-size:clamp(1.9rem,4.1vw,3.9rem);line-height:1.1;color:var(--bone);max-width:30ch}
-.js .reveal-text .w{color:rgba(240,230,203,.3);transition:color .25s linear}
+.js .reveal-text .w{color:rgba(240,230,203,.45);transition:color .25s linear}
 .js .reveal-text .w.on{color:var(--bone)}
 
 /* ---------- lista usług ---------- */
@@ -375,3 +375,10 @@ ul{margin:0;padding:0;list-style:none}
 .quotes-two{display:grid;grid-template-columns:1fr 1fr;gap:32px 64px;width:100%}
 .contact-cta{margin-top:32px;display:flex;flex-wrap:wrap;gap:12px}
 @media (max-width:700px){.quotes-two{grid-template-columns:1fr}}
+
+/* ---------- poprawki po radzie (18.11) ---------- */
+.card img[src*="g3"]{object-position:50% 25%}
+.facts-list li{white-space:normal}
+.facts-list li b+*{white-space:nowrap}
+.about-fig .poglad{display:block}
+@media (max-width:700px){#kontakt .contact-cta{display:none}}

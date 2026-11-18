@@ -105,13 +105,4 @@
     document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))closeLb()});
   }
 
-  /* formularz: otwiera e-mail z wypełnioną treścią */
-  var form=document.querySelector('.form');
-  if(form){
-    form.addEventListener('submit',function(e){
-      e.preventDefault();
-      var f=form.elements,body='Imię: '+f.imie.value+'\nTelefon: '+f.telefon.value+'\nMiejscowość montażu: '+f.miejscowosc.value+'\n\n'+f.wiadomosc.value;
-      location.href='mailto:formetbalustrady@op.pl?subject='+encodeURIComponent('Zapytanie ze strony')+'&body='+encodeURIComponent(body);
-    });
-  }
 })();
