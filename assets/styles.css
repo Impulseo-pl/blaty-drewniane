@@ -350,7 +350,7 @@ ul{margin:0;padding:0;list-style:none}
   .facts-list li{grid-template-columns:minmax(0,9.5rem) minmax(0,1fr);align-items:baseline;gap:12px}
 }
 
-/* ---------- FORMET: znak (logo jako maska, kolor z palety) ---------- */
+/* ---------- znak (logo jako obrazek w kolorze z palety) ---------- */
 .pill-logo,.foot-logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;width:auto}
 .mark{display:block;width:30px;height:30px;object-fit:contain;flex:none}
 .word{font-family:var(--f-sans);font-weight:600;font-size:1.05rem;letter-spacing:.14em}
